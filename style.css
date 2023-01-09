@@ -1,0 +1,66 @@
+main {
+    display: flex;
+    position: absolute;
+}
+
+section {
+    padding: 2% 2% 0 2%;
+    height: 100%;
+}
+
+#first-section {
+    width: 25%;
+    background-color: hsl(180, 17.8%, 15%);
+    color: azure;    
+}
+
+article {
+    padding-bottom: 4.5vh;
+}
+
+#last-section {
+    width: 75%;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+#last-section article:first-child p {
+    text-align: justify;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 2vw;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 1vw;
+}
+h2 {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+p, li, a {
+    line-height: 1.3vw;
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+}
+
+span {
+    line-height: 1.3vw;
+    color: dimgrey;
+    font-size: 20px;
+}
+
+nav {
+    margin-bottom: 11vh;
+    text-align: end;
+}
